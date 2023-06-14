@@ -1,0 +1,86 @@
+.row{
+    text-align: center;
+}
+.templatemo_contacttitle {
+    width: 50%;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.templatemo_sub_contacttitle {
+    font-family: "GandhiBold";
+    width: 100%;
+    font-size: 2.5rem;
+    color: rgba(0, 184, 171, 1);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.templatemo_contact {
+    font-family: "GandhiRegular";
+    margin: 30px;
+    width: 50%;
+    margin-left: 15%;
+    
+}
+
+.templatemo_contactform input, textarea {
+    color:rgba(0, 184, 171, 1);
+    border: none;
+    font-family: "GandhiRegular";
+    width: 50%;
+    border-bottom: 1.5px solid white;
+    border-left: 1.5px solid rgba(250, 115, 11, 1);
+    border-right: 1.5px solid rgba(250, 115, 11, 1);
+    padding: 1rem 1.2rem;
+    margin: 0.5rem;
+    background-color: #FAFAFA;
+    resize: none;
+    outline: none;
+    transition: all 0.2s cubic-bezier(.69,.12,.41,.71);
+    font-size: 1rem;
+    
+}
+
+.templatemo_contactform input:focus, .templatemo_contactform textarea:focus{
+    border-bottom: 1.5px solid rgba(250, 115, 11, 1);
+    border-left: 1.5px solid white;
+    border-right: 1.5px solid white;
+}
+
+.templatemo_contactform textarea {
+    border-left: 1.5px solid rgba(250, 115, 11, 1);
+    border-right: 1.5px solid rgba(250, 115, 11, 1);
+    color:rgba(0, 184, 171, 1);
+}
+
+
+
+.templatemo_contactform .btn-primary {
+    font-family: "GandhiRegular";
+    background: rgba(250, 115, 11, 1);
+    border: 1.5px solid #FAFAFA;
+    border-radius: 50px;
+    color: #FAFAFA;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.templatemo_contactform .btn-primary:hover {
+    background: #FAFAFA;
+    border: 1.5px solid rgba(250, 115, 11, 1);
+    color: rgba(250, 115, 11, 1);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 50px) and (max-width:1100px){
+.templatemo_contact{
+    width: 75%;
+}
+.templatemo_contactform input, textarea {
+    width: 75%;
+}
+}
